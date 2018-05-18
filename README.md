@@ -41,14 +41,16 @@ These can be overridden by setting the environment variables `RAILS_DEV_BOX_RAM`
 
 ## How to create a virtual image from linux distro
 
-Before vagrant up, you need to touch the file CREATION_FROM_DISTRO like this:
+Before you vagrant up, you need to touch the file CREATION_FROM_DISTRO in the same directory to Vagrantfile like this:
 
+    host $ ls
+    .vagrant bootstrap_user.sh bootstrap_root.sh Vagrant_file
     host $ touch CREATION_FROM_DISTRO
     host $ vagrant up
 
-and then the new kosen-robocon-db-dev-box image will be created. (For details of the later work, please refer to the Vagrant manual site.)
+and then the new kosen-robocon-db-dev-box image will be created. (For details of the later work, please refer to the [Vagrant Documentation site](https://www.vagrantup.com/docs/index.html).)  It is the same even if you create the file CREATION_FROM_DISTRO on GUI like Windows.
 
-Before vagrant up for the second time, don't forget to remove the file CREATION_FROM_DISTRO, or then virtual image creation will start again.  
+Before you vagrant up for the second time, don't forget to remove the file CREATION_FROM_DISTRO, or then virtual image creation will start again.  
 
 ## What's In The Box
 
