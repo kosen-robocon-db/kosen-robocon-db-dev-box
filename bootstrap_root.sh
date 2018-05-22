@@ -26,9 +26,9 @@ apt-get -y upgrade >/dev/null 2>&1
 echo Installing Ruby/Rails dependencies
 install 'Development tools' build-essential autoconf libtool
 install 'Line editing library' libreadline-dev
-install 'Open SSL library toolkit ' libssl-dev
+install 'Open SSL library toolkit' libssl-dev
 install SQLite sqlite3 libsqlite3-dev
-install PostgreSQL postgresql-client-10
+install PostgreSQL postgresql-client-10 libpq-dev
 install 'Nokogiri dependencies' libxml2 libxml2-dev libxslt1-dev
 install 'ExecJS runtime (nodejs)' nodejs
 
