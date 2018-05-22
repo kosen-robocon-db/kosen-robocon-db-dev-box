@@ -5,6 +5,7 @@ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile
 echo 'eval "$(rbenv init -)"' >> ~/.profile
+echo 'export EDITOR="/usr/bin/vi"' >> ~/.profile
 source ~/.profile
 
 echo Installing Ruby 2.5.1
