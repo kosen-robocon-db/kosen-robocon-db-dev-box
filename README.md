@@ -70,6 +70,8 @@ Before you vagrant up for the second time, don't forget to remove the file CREAT
 
 * An ExecJS runtime
 
+* Heroku CLI
+
 * Rails 5.2.0 or higher
 
 ## Thanks
