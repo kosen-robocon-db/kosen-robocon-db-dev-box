@@ -5,7 +5,7 @@ Vagrant.configure('2') do |config|
     config.vm.box      = 'ubuntu/bionic64' # 18.04 LTS
   else
     config.vm.box = 'matthew_238/kosen-robocon-db-dev'
-    config.vm.box_version = '0.0.1'
+    config.vm.box_version = '0.0.2'
   end
   config.vm.hostname = 'robocon'
   config.vm.network :forwarded_port, guest: 3000, host: 3000
